@@ -5,3 +5,4 @@ CREATE TABLE users (
     prefecture VARCHAR(50),
     score INT
 );
+alter table foods add type varchar(255) not null after name;
